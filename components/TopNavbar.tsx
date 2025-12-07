@@ -41,7 +41,7 @@ const TopNavbar = ({ lang = "default", slug = "" }: Props) => {
         <img
           src={Logo.src}
           alt="Good-Logo"
-          className="h-20 w-60 cursor-pointer"
+          className="h-18 w-70 cursor-pointer"
           onClick={handleLogoClick}
         />
 

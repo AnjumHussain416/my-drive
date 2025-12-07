@@ -18,6 +18,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const data = await import(`@/json/${slug}.json`);
+  console.log(`[metadata-json:${slug}]`, {
+    metaTitle: (data as any)?.metaTitle ?? "",
+    hasDealer: Boolean((data as any)?.dealer),
+    carsCount: Array.isArray((data as any)?.cars)
+      ? (data as any).cars.length
+      : 0,
+  });
 
   return {
     title: data.metaTitle,

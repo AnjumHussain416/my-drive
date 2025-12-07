@@ -168,7 +168,7 @@ export default function Footer({ lang, slug }: Props) {
           <img
             src={Logo.src}
             alt="Good-Logo"
-            className="inline-block h-6 w-[30px] cursor-pointer"
+            className="inline-block h-8 w-[80px] cursor-pointer"
             onClick={handleLogoClick}
           />
         </Link>
