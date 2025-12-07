@@ -37,8 +37,8 @@ export default async function Page({ params }: { params: Params }) {
 
   return (
     <div>
-      {/* <p>Slug: {slug}</p>
-      <p>Language: default</p> */}
+      <p>Slug: {slug}</p>
+      <p>Language: default</p>
       <TopNavbar lang="default" slug={slug} />
       <Home lang="default" slug={slug} />
       <Footer lang="default" slug={slug} />

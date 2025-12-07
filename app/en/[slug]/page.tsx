@@ -37,6 +37,8 @@ export default async function Page({ params }: { params: Params }) {
 
   return (
     <div>
+      <p>Slug: {slug}</p>
+      <p>Language: en</p>
       <TopNavbar lang="en" slug={slug} />
       <Home lang="en" slug={slug} />
       <Footer lang="en" slug={slug} />
