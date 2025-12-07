@@ -1,6 +1,4 @@
-import Footer from "@/components/Footer";
 import Home from "@/components/Home";
-import TopNavbar from "@/components/TopNavbar";
 import type { Metadata } from "next";
 
 type Params = {
@@ -39,9 +37,7 @@ export default async function Page({ params }: { params: Params }) {
     <div>
       <p>Slug: {slug}</p>
       <p>Language: en</p>
-      <TopNavbar lang="en" slug={slug} />
       <Home lang="en" slug={slug} />
-      <Footer lang="en" slug={slug} />
     </div>
   );
 }

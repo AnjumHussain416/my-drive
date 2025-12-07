@@ -5,6 +5,8 @@ import { languages } from "@/utils/languages";
 import { GET_CAR_BY_ID_API } from "@/endpoints";
 import DealerSearch from "./DealerSearch";
 import type { Dealer, CarAPI } from "@/utils/types";
+import TopNavbar from "./TopNavbar";
+import Footer from "./Footer";
 
 type Props = {
   lang: "en" | "default";
@@ -84,11 +86,13 @@ export default function Home({ lang, slug }: Props) {
 
   return (
     <main>
+      <TopNavbar lang={lang} slug={slug} />
       <DealerSearch
         dealerId={slug}
         initialData={data ?? undefined}
         lang={lang}
       />
+      <Footer lang={lang} slug={slug} />
     </main>
   );
 }
