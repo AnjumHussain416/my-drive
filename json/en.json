@@ -1,0 +1,95 @@
+{
+  "Meta": {
+    "title": "Drive",
+    "description": "Good Drive AI is a platform that helps you solve your digital device and software problems quickly and efficiently."
+  },
+  "Home": {
+    "welcome": "Welcome to Good Drive AI",
+    "getStarted": "Get Started"
+  },
+  "Example": {
+    "server": "Greeting rendered on the server: {name}",
+    "client": "Greeting rendered on the client: {name}",
+    "switchLocale": "Switch language"
+  },
+  "navigation": {
+    "inventory": "Inventory",
+    "blog": "Blog",
+    "dealerSignUp": "Dealer Sign up",
+    "dealerLogin": "Dealers Login"
+  },
+  "dealer": {
+    "totalVehicles": "Total Vehicles",
+    "searchPlaceholder": "Search by Year, Make or Model",
+    "searchButton": "Search",
+    "loading": "Loading..."
+  },
+  "filters": {
+    "sort": "Sort",
+    "arrival_asc": "Arrival (Most Ancient)",
+    "arrival_desc": "Arrival (Most Recent)",
+
+    "price_asc": "Price ",
+    "price_desc": "Price Descending",
+    "make_asc": "Make ",
+    "make_desc": "Make Descending",
+
+    "model_asc": "Model ",
+    "model_desc": "Model Descending",
+
+    "year_asc": "Year",
+    "year_desc": "Year Descending",
+
+    "priceLowHigh": "Price: Low to High",
+    "priceHighLow": "Price: High to Low",
+    "allMakes": "All Makes",
+    "allModels": "All Models",
+    "maximumYear": "Maximum Year",
+    "minimumYear": "Minimum Year",
+    "enterMaxPrice": "Enter max price",
+    "enterMinPrice": "Enter min price",
+    "mileage": "Mileage",
+    "allTransmissions": "All Transmissions",
+    "automatic": "Automatic",
+    "manual": "Manual",
+    "allBodies": "All Bodies",
+    "allColors": "All Colors",
+    "reset": "Reset Filters"
+  },
+  "footer": {
+    "followUs": "FOLLOW US ON",
+    "columns": {
+      "column1": {
+        "title": "Company",
+        "links": {
+          "inventory": "INVENTORY",
+          "blog": "BLOG",
+          "contact": "CONTACT US",
+          "dealerSignUp": "DEALER SIGN UP",
+          "dealersLogin": "DEALERS LOGIN"
+        }
+      },
+      "column2": {
+        "title": "Used Cars",
+        "links": {
+          "under10000": "USED UNDER $10,000",
+          "under5000": "USED UNDER $5,000",
+          "convertible": "CONVERTIBLE",
+          "coupe": "COUPE",
+          "hatchback": "HATCHBACK",
+          "minivan": "MINIVAN",
+          "none": "NONE"
+        }
+      },
+      "column3": {
+        "title": "Vehicles",
+        "links": {
+          "truck": "TRUCK",
+          "sedan": "SEDAN",
+          "suv": "SUV",
+          "rv": "RV"
+        }
+      }
+    }
+  }
+}

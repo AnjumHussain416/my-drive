@@ -1,0 +1,95 @@
+{
+  "Meta": {
+    "title": "Drive",
+    "description": "Driveest une plateforme qui vous aide à résoudre rapidement et efficacement vos problèmes liés aux appareils et logiciels numériques."
+  },
+  "Home": {
+    "welcome": "Bienvenue sur Good Drive AI",
+    "getStarted": "Commencer"
+  },
+  "Example": {
+    "server": "Salutation rendue côté serveur : {name}",
+    "client": "Salutation rendue côté client : {name}",
+    "switchLocale": "Changer la langue"
+  },
+  "navigation": {
+    "inventory": "Inventaire",
+    "blog": "Blog",
+    "dealerSignUp": "Inscription concessionnaire",
+    "dealerLogin": "Connexion concessionnaire"
+  },
+  "dealer": {
+    "totalVehicles": "Véhicules Totaux",
+    "searchPlaceholder": "Rechercher par année, marque ou modèle",
+    "searchButton": "Rechercher",
+    "loading": "Chargement..."
+  },
+  "filters": {
+    "sort": "Trier",
+    "arrival_asc": "Arrivée (Plus Ancienne)",
+    "arrival_desc": "Arrivée (Plus Récente)",
+
+    "price_asc": "Prix",
+    "price_desc": "Prix Décroissant",
+
+    "make_asc": "Marque ",
+    "make_desc": "Marque Décroissant",
+
+    "model_asc": "Modèle ",
+    "model_desc": "Modèle Décroissant",
+
+    "year_asc": "Année",
+    "year_desc": "Année Décroissant",
+    "priceLowHigh": "Prix : croissant",
+    "priceHighLow": "Prix : décroissant",
+    "allMakes": "Toutes les marques",
+    "allModels": "Tous les modèles",
+    "maximumYear": "Année maximale",
+    "minimumYear": "Année minimale",
+    "enterMaxPrice": "Prix max",
+    "enterMinPrice": "Prix min",
+    "mileage": "Kilométrage",
+    "allTransmissions": "Toutes transmissions",
+    "automatic": "Automatique",
+    "manual": "Manuelle",
+    "allBodies": "Toutes carrosseries",
+    "allColors": "Toutes les couleurs",
+    "reset": "Réinitialiser les filtres"
+  },
+  "footer": {
+    "followUs": "SUIVEZ-NOUS SUR",
+    "columns": {
+      "column1": {
+        "title": "Entreprise",
+        "links": {
+          "inventory": "INVENTAIRE",
+          "blog": "BLOG",
+          "contact": "CONTACTEZ-NOUS",
+          "dealerSignUp": "INSCRIPTION CONCESSIONNAIRE",
+          "dealersLogin": "CONNEXION CONCESSIONNAIRE"
+        }
+      },
+      "column2": {
+        "title": "Voitures d'occasion",
+        "links": {
+          "under10000": "UTILISÉ MOINS DE 10 000$",
+          "under5000": "UTILISÉ MOINS DE 5 000$",
+          "convertible": "CONVERTIBLE",
+          "coupe": "COUPE",
+          "hatchback": "HAYON",
+          "minivan": "MINIVAN",
+          "none": "AUCUN"
+        }
+      },
+      "column3": {
+        "title": "Véhicules",
+        "links": {
+          "truck": "CAMION",
+          "sedan": "BERLINE",
+          "suv": "SUV",
+          "rv": "VR"
+        }
+      }
+    }
+  }
+}

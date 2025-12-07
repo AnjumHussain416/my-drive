@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --gray-200: #bcbcbc;
+  --gray-300: #e7e7e7;
+  --gray-400: #333;
+  --gray-450: #515365;
+  --gray-500: #dee2e6;
+  --gray-600: #a4a4a4;
+  --gray-700: #475569;
+  --gray-800: #212529;
+  --gray-900: #363636;
+  --gray-1000: #6b6868;
+  --gray-1100: #5a5a5a;
+  --gray-1200: #3b3f5c;
+
+  --primary-blue-300: #046bd2;
+  --primary-blue-400: #100e42;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-blue-300: var(--primary-blue-300);
+  --color-primary-blue-400: var(--primary-blue-400);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --color-gray-400: var(--gray-400);
+  --color-gray-450: var(--gray-450);
+  --color-gray-500: var(--gray-500);
+  --color-gray-600: var(--gray-600);
+  --color-gray-700: var(--gray-700);
+  --color-gray-800: var(--gray-800);
+  --color-gray-900: var(--gray-900);
+  --color-gray-1000: var(--gray-1000);
+  --color-gray-1100: var(--gray-1100);
+  --color-gray-1200: var(--gray-1200);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* Set Montserrat as the default body font */
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+/* Example of using the other fonts */
+h1,
+h2,
+h3 {
+  font-family: var(--font-alexandria), sans-serif;
+}
+
+.special-text {
+  font-family: var(--font-bricolage), sans-serif;
+}
+
+img.widget-logo-in {
+  width: 130px;
+  height: auto;
+  -webkit-filter: drop-shadow(2px 2px 6px #100e42c7);
+  filter: drop-shadow(2px 2px 6px #100e42c7);
+  margin-left: -10px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* default padding */
+  padding-right: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  /* sm */
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* md */
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* lg */
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* xl */
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* 2xl */
+  .container {
+    max-width: 1536px;
+  }
+}
